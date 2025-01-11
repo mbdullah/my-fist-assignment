@@ -293,7 +293,6 @@ nav ul li a:hover{
     margin-top: 20px;
     margin-bottom: 50px;
     border: none;
-    color: #FFFFFF;
     border-bottom: 1px solid rgba(0, 0, 0, 0.151) ;
     font-size: 20px;
     font-weight: 500;
@@ -323,7 +322,6 @@ nav ul li a:hover{
     padding: 25px 40px;
     border-radius: 10px 0px 0px 10px;
     border: none;
-    color: white;
     font-size: 18px;
 }
 .subscribe-btn-02{
