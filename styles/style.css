@@ -21,8 +21,8 @@
     cursor: pointer;
 }
 .btn-container:hover{
-    color: #006A50;
-    background-color: wheat;
+    color: #09A15C;
+    background-color: red;
 }
 .main-section-content{
     font-size: 45px;
@@ -94,6 +94,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 160px;
+  }
+  .bangladesh{
+    color: tomato;
+  }
+  .family{
+   color: #09A15C
   }
   .nav-title{
     color: #0E0E0E;
