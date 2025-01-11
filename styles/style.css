@@ -21,8 +21,8 @@
     cursor: pointer;
 }
 .btn-container:hover{
-    background-color: rgb(13, 13, 14);
-    color: yellow;
+    color: #006A50;
+    background-color: wheat;
 }
 .main-section-content{
     font-size: 45px;
@@ -86,6 +86,8 @@
     color: white;
     background-color: #006A50;
 }
+/* shared style closed */
+
   /* nav styles started */
   nav{
     display: flex;
@@ -182,11 +184,9 @@ nav ul li a:hover{
 }
 .card-content-02{
     background-color: #C6E4D6;
-    
 }
 .card-content-03{
     background-color: #F7EBCF;
-    
 }
 .card-btn-container-01{
     font-size: 18px;
@@ -239,7 +239,6 @@ nav ul li a:hover{
     background-position:32px 20px;
     color: #FFFFFF;
     background-color: white;
-    
 }
 .lorem-ipsum{
     font-size: 18px;
@@ -256,6 +255,8 @@ nav ul li a:hover{
     margin-top: 15px;
     margin-bottom: 5px;
 }
+/* main styles closed */
+
 
 /* main-section-container started */
 #main-section-container{
@@ -266,6 +267,9 @@ nav ul li a:hover{
 .Satellite{
     margin-bottom: 30px;
 }
+/* main-section-container closed */
+
+
 /* donate-today section started  */
 #donate-today-section{
     width: 85%;
@@ -278,14 +282,19 @@ nav ul li a:hover{
 }
 .input-txt{
     width: 60%;
-    padding: 30px 50px;
+    padding: 25px 50px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
     border: none;
     color: #FFFFFF;
     border-bottom: 1px solid rgba(0, 0, 0, 0.151) ;
+    font-size: 20px;
+    font-weight: 500;
 }
+/* donate-today section closed  */
+
+
 /* subscribe section styles started */
 #subscribe{
     width: 85%;
@@ -293,6 +302,7 @@ nav ul li a:hover{
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 90px 10px;
+    margin-bottom: 100px;
 }
 .subscribe-container{
     text-align: center;
@@ -301,7 +311,7 @@ nav ul li a:hover{
 .subscribe-btn{
     gap: 0px;
     align-items: center;
-    
+}
 .subscribe-btn-01{
     width: 40%;
     padding: 25px 40px;
@@ -320,3 +330,27 @@ nav ul li a:hover{
     background-color: #006A50;
     font-weight: 700;
 }
+.subscribe-btn-02:hover{
+    color: #006A50;
+    background-color: rgb(233, 153, 49);
+}
+/* subscribe section styles closed */
+
+
+/* footer section styles started */
+#footer-container{
+    background-color: white;
+    text-align: center;
+    padding: 0px 250px;
+}
+.footer-content{
+    font-size: 38px;
+    padding: 50px 0px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0px;
+}
+/* footer section styles closed */
