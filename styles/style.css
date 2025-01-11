@@ -85,6 +85,7 @@
     margin: 0 20px;
     border: none;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 .donate-btn:hover{
     color: white;
@@ -351,6 +352,7 @@ nav ul li a:hover{
     color: white;
     background-color: #006A50;
     font-weight: 700;
+    cursor: pointer;
 }
 .subscribe-btn-02:hover{
     color: turquoise;
