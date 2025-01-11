@@ -21,8 +21,8 @@
     cursor: pointer;
 }
 .btn-container:hover{
-    color: #09A15C;
-    background-color: red;
+    color: black;
+    background-color: #C6E4D6;
 }
 .main-section-content{
     font-size: 45px;
@@ -151,6 +151,20 @@ nav ul li a:hover{
     font-weight: bold;
     color: #0E0E0E;
     margin: 20px auto 34px;
+}
+.btn-contant{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+}
+.btn-contant:hover{
+    color: #006A50;
+    background-color: white;
 }
 .div-content .assets{
     height: 50vh;
@@ -335,8 +349,8 @@ nav ul li a:hover{
     font-weight: 700;
 }
 .subscribe-btn-02:hover{
-    color: #006A50;
-    background-color: rgb(233, 153, 49);
+    color: turquoise;
+    background-color: rebeccapurple;
 }
 /* subscribe section styles closed */
 
